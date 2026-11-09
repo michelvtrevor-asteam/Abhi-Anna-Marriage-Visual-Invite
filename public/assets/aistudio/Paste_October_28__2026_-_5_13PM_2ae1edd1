@@ -1,0 +1,654 @@
+# PROJECT: ABHISHEK & KEERTHANA — THE CINEMATIC LUXURY CHRISTIAN WEDDING INVITATION
+
+## YOUR MISSION
+
+Act as an exceptional creative director, luxury wedding stationery designer, motion designer, interaction designer and senior frontend engineer.
+
+Transform my existing project into a breathtaking, cinematic, fully interactive digital wedding invitation for Abhishek and Keerthana.
+
+The experience must surpass the supplied reference video in polish, animation quality, visual storytelling, usability and emotional impact.
+
+This is NOT an ordinary wedding website, a generic template, a slideshow or a collection of static cards.
+
+The central experience must feel like opening a real, handcrafted luxury wedding invitation: textured ivory paper, beautifully embossed gold lettering, a physical-feeling envelope, a custom wax seal, graceful typography, delicate floral ornaments and exquisitely choreographed movement.
+
+**ABSOLUTE DESIGN RULE:** No robotic aesthetics, AI-themed graphics, futuristic interfaces, cyberpunk styling, neon gradients, holographic effects, circuit patterns, glassmorphism, cartoon decorations, generic dashboard layouts or artificial-looking visual gimmicks. Do not use Hindu wedding imagery or rituals. This is a Christian wedding.
+
+Prioritize authentic craftsmanship, romance, elegance, faith, subtlety and exceptional animation quality.
+
+## 1. OFFICIAL WEDDING DETAILS
+
+Use the following details consistently throughout the website.
+
+- Groom: Abhishek
+- Bride: Keerthana
+- Couple monogram: A&K
+- Wedding date: Saturday, 28 November 2026
+- Wedding ceremony time: 10:00 AM IST
+- Venue: K.K Reddy Function Hall
+- City: Raichur, Karnataka, India
+- Contact / RSVP: +91 80728 96789
+- Exact supplied location link: https://share.google/YK0Lt0MqPAblsXV6L
+- Website language: English
+- Time zone: Asia/Kolkata
+
+Do not invent family names, photographs, denominational affiliations, reception times, extra ceremonies, venue coordinates or other unconfirmed details.
+
+## 2. REFERENCE IMAGE AND VIDEO ANALYSIS
+
+Before implementation, examine the attached wedding design image and reference video if they are accessible to the current environment.
+
+Treat the image as the visual reference and the video as the motion and storytelling reference.
+
+From the image, study:
+- Ivory and champagne-gold color relationships
+- Typography and font hierarchy
+- Paper texture, embossing and decorative borders
+- Floral details and ornamental composition
+- Spacing, alignment and visual balance
+- Envelope and invitation-card styling
+
+From the video, study:
+- The opening scene and its composition
+- Envelope or invitation movement
+- The timing of each animation
+- Card emergence and unfolding
+- Typography reveal sequences
+- Transitions between scenes
+- Decorative movement and lighting
+- How the experience progresses from the opener to the wedding details
+- The overall pacing and emotional effect
+
+Recreate the underlying design principles and animation choreography with original, responsive web components.
+
+Do not embed the video as the website, use screenshots as interactive sections, or copy unrelated text, watermarks or artifacts.
+
+Do not pretend to have analyzed video frames that are inaccessible. If video analysis is unavailable, use the supplied image and the detailed motion specifications in this prompt.
+
+**Creative direction:** Preserve what makes the reference beautiful, then improve the realism, timing, typography, interaction design, accessibility and consistency. Do not sacrifice usability for visual effects.
+
+## 3. VISUAL DESIGN SYSTEM
+
+Create a consistent luxury wedding stationery design system.
+
+COLOR PALETTE:
+- Warm pearl ivory: #F8F3EA
+- Soft cream: #EFE5D5
+- Champagne gold: #C5A66A
+- Antique gold: #AD925E
+- Deep warm brown: #49382E
+- Pure white highlights: #FFFFFF
+
+TYPOGRAPHY:
+- Primary wedding headings: Cormorant Garamond
+- Alternative editorial serif: Playfair Display
+- Romantic script accents: Great Vibes or Allura
+- Supporting text and functional controls: Lato or Montserrat
+
+Use elegant typography with proper spacing, beautiful line heights and balanced proportions. Script fonts must be used sparingly and never for long paragraphs or essential small text.
+
+Load fonts from a reliable, permitted source and provide graceful fallback fonts. Do not allow the layout to break if an external font fails to load.
+
+MATERIALS AND DETAILS:
+- Realistic ivory paper grain
+- Subtle embossed lettering
+- Delicate gold-foil borders
+- Refined botanical illustrations
+- White floral accents
+- A custom A&K wax seal
+- Natural shadows and paper depth
+- Soft, warm lighting
+- Fine ornamental corner details
+- Tasteful Christian cross motifs
+- Elegant wedding rings where appropriate
+
+Avoid excessive glitter, artificial gold gradients, noisy backgrounds, oversized decorations and excessive animation.
+
+Every section must feel like part of the same carefully art-directed wedding invitation.
+
+## 4. THE OPENING EXPERIENCE — MAKE THIS EXCEPTIONAL
+
+This is the highest-priority feature. Spend more design and engineering effort here than on any other individual section.
+
+Create a full-screen, mobile-first opening scene that resembles an actual luxury wedding envelope photographed under warm, soft light.
+
+INITIAL COMPOSITION:
+
+The screen displays:
+- A warm ivory background with subtle paper grain
+- A large, beautifully constructed envelope centered on the screen
+- Delicate gold floral ornaments at the edges
+- A thin embossed gold frame
+- A champagne-gold wax seal bearing the A&K monogram
+- Natural shadows beneath the envelope
+- A soft light source that gives the paper dimensionality
+
+Display the following text tastefully:
+
+"TO OUR DEAR FAMILY & FRIENDS"
+
+"A&K"
+
+"An Invitation to Celebrate Love"
+
+Button: "OPEN YOUR INVITATION"
+
+The envelope should be large enough to feel special on a phone without clipping on narrow screens.
+
+### THE ENVELOPE OPENING SEQUENCE
+
+When the guest taps the envelope or its opening button, execute a carefully choreographed sequence:
+
+1. The button responds with a subtle tactile-style visual response.
+2. The wax seal gently presses, catches the light and releases.
+3. The envelope flap rotates open using realistic perspective and a natural transform origin.
+4. The inside of the envelope becomes visible, with believable layered depth.
+5. The invitation card begins to emerge from the envelope.
+6. The card moves upward and slightly forward with realistic shadows and restrained easing.
+7. The card settles naturally into the center of the composition.
+8. The invitation unfolds or expands into its readable presentation.
+9. A delicate golden light passes over the embossed details.
+10. The couple's names appear in a carefully timed typography reveal.
+11. The scene transitions smoothly into the complete invitation website.
+
+Use actual HTML elements, CSS shapes, layered components, transforms, gradients, masks and shadows where appropriate.
+
+Create believable depth using separate layers for the envelope body, flap, interior, invitation card and seal.
+
+The animation must have natural acceleration and deceleration, elegant timing and convincing spatial relationships. The card must appear to originate inside the envelope rather than simply fade onto the screen.
+
+Avoid childish bouncing, abrupt cuts, excessive rotation, random particles, generic fade-only animations and effects that look like a PowerPoint presentation.
+
+Provide a discreet skip-intro control so guests can reach the invitation immediately.
+
+The interaction must work reliably with touchscreens, mouse, keyboard and reduced-motion settings.
+
+After the intro has been completed, do not force guests to repeat the animation whenever they navigate the page.
+
+## 5. THE MAIN INVITATION REVEAL
+
+Reveal a beautifully composed digital wedding card with realistic paper texture, delicate gold ornaments, restrained Christian symbolism and exceptional typography.
+
+Use this exact invitation copy:
+
+WITH GOD'S BLESSINGS
+
+Together with our families,
+
+WE JOYFULLY INVITE YOU
+
+to celebrate the wedding of
+
+ABHISHEK
+
+&
+
+KEERTHANA
+
+A&K
+
+"Two hearts, one promise, a lifetime together under God's grace."
+
+SATURDAY
+
+28 NOVEMBER 2026
+
+10:00 AM
+
+K.K Reddy Function Hall
+
+Raichur, Karnataka, India
+
+"We would be honoured by your presence and prayers as we begin our new journey together."
+
+The couple's names must be the main visual centerpiece. Use sophisticated typography, thoughtful line breaks and carefully balanced negative space.
+
+Reveal each group of text in a meaningful sequence. Do not animate every word separately or create unnecessary delays.
+
+The invitation must remain readable, accessible and beautiful without animations.
+
+## 6. CHRISTIAN WEDDING SCRIPTURE AND BLESSINGS
+
+Create a dedicated Scripture section that feels reverent, peaceful and beautifully typeset.
+
+Display:
+
+"Above all, love each other deeply."
+
+— 1 Peter 4:8
+
+And:
+
+"Therefore what God has joined together, let no one separate."
+
+— Mark 10:9
+
+Use refined serif typography, delicate botanical details and a tasteful cross ornament.
+
+Keep the Scripture section visually distinct from the logistical wedding information.
+
+Finish this section with:
+
+"May God bless this new beginning with faith, joy, patience, peace and everlasting love."
+
+Do not invent a Bible translation attribution or denomination.
+
+## 7. LIVE WEDDING COUNTDOWN
+
+Create a working live countdown to Saturday, 28 November 2026, at 10:00 AM Asia/Kolkata.
+
+Display:
+- Days
+- Hours
+- Minutes
+- Seconds
+
+Use refined numerals, elegant separators, delicate gold detailing and subtle transitions when values change.
+
+Requirements:
+- Calculate the target time correctly for India Standard Time.
+- Update automatically.
+- Never display negative values.
+- Handle date and time boundaries correctly.
+- Display a wedding-day message when the countdown reaches zero.
+- Remain legible on narrow mobile screens.
+- Avoid layout shifts as numbers change.
+
+Do not use a hardcoded countdown or a fake animation.
+
+## 8. WEDDING DETAILS AND GOOGLE MAPS
+
+Create a beautifully designed section titled:
+
+"THE WEDDING DAY"
+
+Display:
+
+Saturday, 28 November 2026
+
+10:00 AM IST
+
+K.K Reddy Function Hall
+
+Raichur, Karnataka, India
+
+Include a prominent, elegant button:
+
+"GET DIRECTIONS"
+
+Open this exact URL:
+
+https://share.google/YK0Lt0MqPAblsXV6L
+
+Use the supplied URL directly. Do not invent a replacement Google Maps link, coordinates or an alternative venue.
+
+Make the button easy to tap on mobile. Open the destination externally and use appropriate link safety attributes.
+
+Do not fabricate parking arrangements, travel times, accommodations or venue features.
+
+## 9. WEDDING EVENT TIMELINE
+
+Create a refined timeline with a thin gold line, delicate ornaments and elegant event typography.
+
+The only confirmed event is:
+
+10:00 AM — Wedding Ceremony
+
+K.K Reddy Function Hall, Raichur
+
+"Join us as we celebrate the beginning of our life together in God's presence."
+
+Build the component so more events can be added later through the central configuration file.
+
+Do not display empty event cards or invent additional ceremonies.
+
+## 10. COUPLE PHOTO GALLERY
+
+Create a premium editorial photo gallery with:
+- Carefully composed image layouts
+- Soft ivory framing
+- Fine gold borders
+- Gentle image transitions
+- Responsive mobile layouts
+- A fullscreen lightbox
+- Swipe-friendly touch navigation
+- Keyboard navigation and accessible close controls
+
+Do not generate or fabricate photographs of Abhishek or Keerthana.
+
+Until actual photographs are supplied, use elegant floral artwork, paper textures or intentionally designed placeholders.
+
+Make it easy to replace placeholders with real couple photographs without changing the gallery code.
+
+Optimize images for fast loading and avoid large uncompressed assets.
+
+## 11. OPTIONAL BACKGROUND MUSIC
+
+Create a small, elegant music player that fits the wedding stationery aesthetic.
+
+Include:
+- Play and pause
+- A subtle animated music indicator
+- An optional track title when configured
+- A configurable local audio file
+- Graceful handling of missing or unsupported audio
+- Accessible labels and touch-friendly controls
+
+Never autoplay audio.
+
+Do not include copyrighted music without permission.
+
+Keep the music player visually understated and ensure it does not obstruct the invitation content.
+
+## 12. WHATSAPP INVITATION SHARING
+
+Create a beautiful button:
+
+"SHARE OUR INVITATION"
+
+Use this prefilled message:
+
+"With God's blessings, Abhishek & Keerthana joyfully invite you to celebrate their wedding on Saturday, 28 November 2026 at 10:00 AM at K.K Reddy Function Hall, Raichur. We would love to have you with us. Please join us in prayer and celebration."
+
+Append the actual deployed website URL when available.
+
+Encode the message correctly and ensure the share link works on Android, iPhone and desktop browsers.
+
+Do not insert a fabricated production URL.
+
+## 13. WHATSAPP RSVP
+
+Create a refined RSVP section.
+
+Heading:
+
+"WE WOULD LOVE TO CELEBRATE WITH YOU"
+
+Supporting text:
+
+"Your presence and prayers would mean so much to us."
+
+Button:
+
+"RESPOND ON WHATSAPP"
+
+Contact number in international digits:
+
+918072896789
+
+Prefilled message:
+
+"Hello! I received the wedding invitation for Abhishek & Keerthana on 28 November 2026. I would like to respond to the invitation."
+
+Open WhatsApp with the message prefilled.
+
+Do not claim that the RSVP has been saved, delivered or confirmed automatically.
+
+## 14. ADD TO CALENDAR
+
+Create a functional "ADD TO CALENDAR" button that downloads a valid .ics calendar event.
+
+Event title:
+Wedding of Abhishek & Keerthana
+
+Date:
+28 November 2026
+
+Start time:
+10:00 AM Asia/Kolkata
+
+Venue:
+K.K Reddy Function Hall, Raichur, Karnataka, India
+
+Use a convenient two-hour default duration, but treat it as a calendar convenience rather than a confirmed ceremony duration.
+
+Include the supplied location link and event description where supported.
+
+Generate valid calendar data with correct time-zone conversion, escaping and line formatting. Ensure the file downloads successfully.
+
+## 15. CINEMATIC MOTION SYSTEM
+
+Create a coherent motion language for the entire experience.
+
+Use:
+- Carefully timed transitions between scenes
+- Natural easing curves
+- Paper-like movement
+- Realistic depth and shadows
+- Subtle lighting changes
+- Elegant typography reveals
+- Restrained floral motion
+- Gentle section entrance animations
+- Smooth scrolling
+- Delicate gold-line animations
+- Subtle hover and touch responses
+- Consistent transition durations
+
+Motion should communicate meaning and guide the guest's attention.
+
+The envelope opening may be cinematic and elaborate; the Scripture, venue details and RSVP sections should be calmer and easier to read.
+
+Avoid animating every element independently. Do not sacrifice performance or accessibility for decorative effects.
+
+Respect the user's reduced-motion preference and provide a usable experience when animation is disabled.
+
+## 16. CLOSING BLESSING
+
+Finish with a beautiful closing scene using warm ivory paper, delicate white floral ornaments, subtle gold accents and tasteful Christian symbolism.
+
+Display:
+
+"WITH LOVE AND PRAYERS"
+
+ABHISHEK & KEERTHANA
+
+A&K
+
+"Thank you for being part of our joy. Your presence, love and prayers are a precious blessing to us."
+
+Include a final sharing button and a graceful way to return to the beginning.
+
+The ending should feel heartfelt, complete and memorable.
+
+## 17. TECHNICAL REQUIREMENTS
+
+Work directly in the existing project.
+
+- Preserve the current framework and working functionality.
+- If the project already uses React, TypeScript and Vite, continue with them.
+- Reuse existing dependencies wherever possible.
+- Build reusable, maintainable components.
+- Keep wedding details in one clearly documented configuration file.
+- Use Asia/Kolkata consistently for date and time logic.
+- Use actual functional HTML buttons and links.
+- Make all layouts responsive.
+- Avoid horizontal overflow.
+- Support keyboard navigation and semantic HTML.
+- Use accessible contrast and readable typography.
+- Respect reduced-motion settings.
+- Optimize images, fonts and animations.
+- Avoid unnecessary third-party libraries.
+- Do not add a database, authentication system or paid API when not required.
+- Do not expose API keys or secrets in client-side code.
+- Provide sensible fallbacks when optional assets are unavailable.
+
+Suggested components:
+
+EnvelopeIntro
+InvitationReveal
+WeddingInvitation
+ScriptureSection
+WeddingCountdown
+WeddingDetails
+EventTimeline
+PhotoGallery
+MusicPlayer
+WhatsAppShare
+WhatsAppRSVP
+AddToCalendar
+ClosingBlessing
+
+Use a central configuration file for the couple's names, wedding date, time, venue, location link, contact number, invitation copy, Scripture references and media assets.
+
+## 18. REQUIRED QUALITY ASSURANCE
+
+After implementation, test the actual application.
+
+Verify:
+
+1. The envelope opening works through real user interaction.
+2. The wax seal, flap, card emergence and reveal are visually coherent.
+3. The invitation remains beautiful and readable on mobile.
+4. The typography loads correctly and has suitable fallbacks.
+5. The wedding date and countdown are correct.
+6. The supplied Google Maps link opens correctly.
+7. WhatsApp sharing uses the correct wedding details.
+8. RSVP targets +91 80728 96789.
+9. The calendar download contains the correct date, time and venue.
+10. The gallery lightbox works.
+11. The music controls work and handle missing audio.
+12. The site works at 360px, 390px and desktop widths.
+13. Reduced-motion preferences are respected.
+14. There are no broken buttons, obvious layout issues or runtime errors.
+15. No fabricated photographs, ceremonies or family details appear.
+16. No robotic, futuristic or AI-themed styling appears.
+17. The complete experience remains visually consistent from the opener to the final blessing.
+
+Fix issues you discover rather than merely listing them.
+
+Do not replace functioning features with placeholders. Do not delete working code just to simplify implementation. Do not stop after creating the first screen.
+
+## FINAL CREATIVE STANDARD
+
+Create a bespoke, premium Christian wedding invitation that captures the visual elegance and motion qualities of the supplied reference materials and elevates them with better execution.
+
+The envelope should feel tangible. The paper should feel crafted. The typography should feel timeless. The animations should feel natural. The Scripture should feel reverent. The entire experience should feel personal.
+
+The finished website must not look AI-generated, robotic, futuristic, generic or mass-produced.
+
+It must feel like an exceptionally talented wedding stationery designer and motion designer collaborated to create a one-of-a-kind invitation for Abhishek and Keerthana.
+
+Implement the complete working experience in the existing project, test it and refine the result until the visual quality, motion, responsiveness and functionality meet this standard.
+
+
+# CRITICAL OVERRIDING REQUIREMENT — MOBILE-ONLY WEDDING EXPERIENCE
+
+This wedding invitation is designed EXCLUSIVELY for mobile phones.
+
+The primary and absolute target is a premium mobile-browser experience on Android and iPhone, opened through a WhatsApp invitation link.
+
+Do not design a conventional desktop website. Do not prioritize desktop layouts. Do not create desktop navigation bars, wide hero sections, multi-column desktop layouts or desktop-oriented interactions.
+
+Every creative, visual, animation, typography and engineering decision must prioritize the mobile experience.
+
+## 1. MOBILE DESIGN CANVAS
+
+Design for portrait orientation, especially screen widths between 360px and 430px.
+
+The experience must feel intentionally designed for a phone, not like a desktop website squeezed into a narrow screen.
+
+- Use a full-screen, immersive opening experience.
+- Make the envelope and invitation card the visual center of attention.
+- Use elegant vertical storytelling and natural thumb-friendly scrolling.
+- Make the couple's names prominent and beautifully proportioned.
+- Keep all important text readable without zooming.
+- Use appropriately sized touch targets, ideally approximately 44–48 CSS pixels or larger.
+- Respect mobile safe areas, screen edges and browser viewport changes.
+- Never introduce horizontal scrolling or clipped content.
+- Ensure the experience works in mobile Chrome and Safari.
+
+## 2. MOBILE-FIRST CINEMATIC ENVELOPE ANIMATION
+
+The envelope opener must be engineered specifically for mobile touchscreens.
+
+The envelope should occupy a beautiful proportion of the available screen, with realistic paper folds, layered depth, an embossed A&K wax seal and delicate champagne-gold detailing.
+
+When the guest taps OPEN YOUR INVITATION:
+- Animate the wax seal and envelope flap with convincing movement.
+- Reveal the inner envelope.
+- Slide the invitation card out naturally.
+- Bring the card forward into a beautiful reading position.
+- Reveal the couple's names with elegant typography animation.
+- Transition into the complete invitation without abrupt cuts.
+
+Use CSS transforms, carefully controlled perspective, natural easing and efficient animations.
+
+The sequence must look beautiful at 360px width without clipping, lagging or causing unwanted page scrolling.
+
+Do not use a desktop animation scaled down to fit a phone.
+
+## 3. MOBILE INTERACTION DESIGN
+
+Every interaction must feel natural on a touchscreen.
+
+- Use tap interactions rather than hover-dependent functionality.
+- Make buttons easy to reach and tap.
+- Keep the envelope opener obvious and inviting.
+- Use smooth vertical scrolling between sections.
+- Keep floating music controls discreet and away from important content.
+- Make the gallery swipe-friendly and provide accessible controls.
+- Keep Google Maps, WhatsApp RSVP, invitation sharing and calendar download easy to find.
+- Prevent accidental double-triggering of the envelope animation.
+- Respect reduced-motion preferences.
+
+## 4. MOBILE PERFORMANCE
+
+Optimize for ordinary Android phones and mobile data connections.
+
+- Avoid unnecessary libraries and oversized animation assets.
+- Prefer lightweight CSS animations and efficient transforms.
+- Avoid animating expensive layout properties unnecessarily.
+- Optimize and lazy-load gallery images.
+- Load fonts efficiently with graceful fallbacks.
+- Prevent layout shifts and excessive memory usage.
+- Keep the invitation usable when external fonts or optional media fail.
+- Never autoplay background music.
+- Avoid heavy video backgrounds, excessive particles and unnecessary parallax.
+
+The envelope animation should feel smooth and premium, not technically impressive but slow.
+
+## 5. PORTRAIT-ONLY VISUAL COMPOSITION
+
+Use a refined vertical composition inspired by luxury wedding stationery.
+
+The experience should progress naturally through:
+1. Sealed wedding envelope.
+2. Envelope opening and invitation reveal.
+3. Abhishek & Keerthana's names.
+4. Christian Scripture and blessings.
+5. Live wedding countdown.
+6. Ceremony date, time and venue.
+7. Wedding timeline.
+8. Couple photo gallery.
+9. Music and invitation-sharing controls.
+10. WhatsApp RSVP.
+11. Final blessing.
+
+Do not force every section into a separate full-screen page. Use full-screen scenes where they improve the cinematic experience and elegant vertical sections for the remaining content.
+
+## 6. DESKTOP BEHAVIOR
+
+Desktop is not a design priority.
+
+If someone opens the invitation on a desktop, preserve functionality and readability using a restrained, centered mobile-style invitation composition. Do not redesign the experience into a desktop-oriented website.
+
+## 7. FINAL MOBILE ACCEPTANCE TEST
+
+Before finishing, test the complete invitation at 360px, 375px, 390px and 430px viewport widths.
+
+Verify:
+- Envelope animation and card emergence.
+- Typography and invitation readability.
+- No horizontal overflow.
+- Safe-area spacing.
+- Countdown and wedding details.
+- Google Maps navigation.
+- WhatsApp sharing and RSVP.
+- Gallery interactions.
+- Music controls.
+- Calendar download.
+- Smooth scrolling and animation performance.
+
+Fix all issues before declaring the project complete.
+
+FINAL RULE: This is a mobile-only cinematic Christian wedding invitation. Optimize for the emotional impact, visual craftsmanship, touch interaction and performance of a real phone experience. Every other design consideration is secondary.
